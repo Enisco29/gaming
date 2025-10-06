@@ -24,7 +24,7 @@ const About = () => {
           alt="dot"
           className="absolute top-0 right-[200px] -z-50"
         />
-        <Image src={Rectangle4} alt="spiderman" className="mt-[60px]" />
+        <Image src={Rectangle4} alt="spiderman" className="mt-[60px] w-full" />
       </div>
     </section>
   );
