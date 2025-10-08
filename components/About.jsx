@@ -5,7 +5,7 @@ import Group21 from "../public/Group 21.png";
 
 const About = () => {
   return (
-    <section className="mt-[100px] mx-[30px] space-y-[20px] flex flex-col justify-center items-center">
+    <section className="mt-[100px] mx-[80px] space-y-[20px] flex flex-col justify-center items-center">
       <h3 className="text-center text-4xl font-bold w-[800px]">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
@@ -22,7 +22,7 @@ const About = () => {
         <Image
           src={Group21}
           alt="dot"
-          className="absolute top-0 right-[200px] -z-50"
+          className="absolute top-0 right-[150px] -z-50"
         />
         <Image src={Rectangle4} alt="spiderman" className="mt-[60px] w-full" />
       </div>

@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import mountain from "../../public/mountain.png";
+import mountain from "../public/mountain.png";
 import { features } from "@/data/data";
 
 const Features = () => {
   return (
-    <section className="relative mt-[90px] mx-[30px]">
-      <div className="absolute inset-0 bg-black/80 h-[753px]" />
+    <section className="relative mt-[90px]">
+      <div className="absolute inset-0 bg-black/80 h-full" />
       <div className="absolute w-full flex flex-col items-center ">
-        <h3 className="mt-[90px] text-2xl font-bold w-[500px] text-center leading-relaxed">
+        <h3 className="mt-[90px] text-3xl font-bold w-[580px] text-center leading-relaxed">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </h3>
@@ -38,7 +38,11 @@ const Features = () => {
           ))}
         </div>
       </div>
-      <Image src={mountain} alt="mountain" className="relative -z-50" />
+      <Image
+        src={mountain}
+        alt="mountain"
+        className="relative -z-50 h-[800px]"
+      />
     </section>
   );
 };

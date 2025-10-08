@@ -8,7 +8,7 @@ import unity from "../public/unreal 1.png";
 const Hero = () => {
   return (
     <>
-      <main className="flex justify-between items-center mt-[50px] gap-[30px] mx-[30px]">
+      <main className="flex justify-between items-center mt-[60px] mx-[80px] gap-[30px]">
         <div className="w-[50%] justify-start items-start h-[480px] flex flex-col relative">
           <h4 className="text-[#E87D0E] font-bold text-2xl">3D game Dev</h4>
           <h2 className="text-6xl mt-8 font-extrabold text-white leading-[70px]">
@@ -19,7 +19,7 @@ const Hero = () => {
             industry. Lorem Ipsum has been the industry's standard. Get more
             details
           </p>
-          <button className="bg-[#FA9021] p-3 px-7 mt-[40px] rounded-full">
+          <button className="bg-[#FA9021] p-3 px-7 mt-[40px] cursor-pointer rounded-full">
             Get more details
           </button>
         </div>

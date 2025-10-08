@@ -8,7 +8,7 @@ const GameCard = ({ image, title }) => {
       {gameCard.map((card) => (
         <div
           key={card.id}
-          className="flex flex-col items-center justify-center gap-4"
+          className="flex flex-col items-center justify-center cursor-pointer gap-4"
         >
           <Image src={card.image} alt={card.title} />
           <span className="flex gap-2">
