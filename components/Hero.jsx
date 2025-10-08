@@ -8,13 +8,13 @@ import unity from "../public/unreal 1.png";
 const Hero = () => {
   return (
     <>
-      <main className="flex md:flex-row flex-col justify-between items-center mt-[60px] md:mx-[80px] mx-[20px] gap-[30px]">
+      <main className="flex md:flex-row flex-col justify-between items-center mt-[60px] lg:mx-[80px] md:mx-[50px] mx-[30px] gap-[30px]">
         <div className="md:w-[50%] justify-start items-start md:h-[480px] flex flex-col relative">
           <h4 className="text-[#E87D0E] font-bold text-2xl">3D game Dev</h4>
-          <h2 className="sm:text-4xl text-xl lg:text-6xl mt-8 font-extrabold text-white md:leading-[70px]">
+          <h2 className="md:text-4xl text-3xl lg:text-6xl mt-8 font-extrabold text-white lg:leading-[70px] md:leading-relaxed">
             Work that we produce for our clients
           </h2>
-          <p className="mt-7 text-white md:leading-normal">
+          <p className="mt-7 text-white lg:leading-normal md:leading-relaxed">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard. Get more
             details
@@ -24,10 +24,14 @@ const Hero = () => {
           </button>
         </div>
         <div className="md:w-[50%] flex items-center relative justify-center">
-          <Image src={cry1} alt="cry" className="absolute top-0" />
+          <Image src={cry1} alt="cry" className="absolute md:top-0 -top-6" />
           <Image src={unreal} alt="unreal" />
           <Image src={gamePad} alt="game-pad" className="w-[80%] pt-10" />
-          <Image src={unity} alt="unity" className="absolute top-5 right-0" />
+          <Image
+            src={unity}
+            alt="unity"
+            className="absolute md:top-5 top-0 right-0"
+          />
         </div>
       </main>
     </>

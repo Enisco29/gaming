@@ -12,7 +12,7 @@ const Newsletter = () => {
           </p>
         </div>
 
-        <form className="bg-[#1C140F] flex md:flex-row flex-col p-7 rounded-2xl justify-between items-center w-full px-14">
+        <form className="bg-[#1C140F] flex md:flex-row flex-col p-7 rounded-2xl justify-between items-center w-full md:px-14 max-md:space-y-5">
           <div className="md:w-[60%] space-y-3">
             <h4 className="text-xl font-[400]">Stay in the loop</h4>
             <p className="text-white/70">
@@ -28,7 +28,7 @@ const Newsletter = () => {
             />
             <button
               type="submit"
-              className="absolute right-0 bg-[#DC7000] p-1.5 px-4 mr-3 rounded-md"
+              className="absolute right-0 bg-[#DC7000] cursor-pointer p-1.5 px-4 mr-3 rounded-md"
             >
               continue
             </button>

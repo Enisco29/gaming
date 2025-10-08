@@ -56,12 +56,12 @@ export const featuresM = [
 ];
 
 export const projectsImage = [
-  { id: 1, image: project1, class: "col-span-1 lg:col-span-2" },
-  { id: 2, image: project2, class: "col-span-1 lg:col-span-2" },
-  { id: 3, image: project3, class: "col-span-1 lg:col-span-1" },
-  { id: 4, image: project5, class: "col-span-1 lg:col-span-1" },
-  { id: 5, image: project4, class: "col-span-1 lg:col-span-2" },
-  { id: 6, image: project6, class: "col-span-1 lg:col-span-2" },
+  { id: 1, image: project1, class: " lg:col-span-2" },
+  { id: 2, image: project2, class: " lg:col-span-2" },
+  { id: 3, image: project3, class: " lg:col-span-1" },
+  { id: 4, image: project5, class: " lg:col-span-1" },
+  { id: 5, image: project4, class: " lg:col-span-2" },
+  { id: 6, image: project6, class: " lg:col-span-2" },
 ];
 
 export const footerLinks = [

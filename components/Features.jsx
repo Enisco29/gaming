@@ -17,7 +17,7 @@ const Features = () => {
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s,
         </p>
-        <div className="md:grid md:grid-cols-4 sm:grid-cols-2 gap-4 space-y-5 mt-[90px] hidden">
+        <div className="md:grid md:grid-cols-4 sm:grid-cols-2 gap-4 cursor-pointer space-y-5 mt-[90px] hidden">
           {features.map((feature) => (
             <div
               key={feature.id}
