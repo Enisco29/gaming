@@ -8,13 +8,13 @@ import unity from "../public/unreal 1.png";
 const Hero = () => {
   return (
     <>
-      <main className="flex justify-between items-center mt-[60px] mx-[80px] gap-[30px]">
-        <div className="w-[50%] justify-start items-start h-[480px] flex flex-col relative">
+      <main className="flex md:flex-row flex-col justify-between items-center mt-[60px] md:mx-[80px] mx-[20px] gap-[30px]">
+        <div className="md:w-[50%] justify-start items-start md:h-[480px] flex flex-col relative">
           <h4 className="text-[#E87D0E] font-bold text-2xl">3D game Dev</h4>
-          <h2 className="text-6xl mt-8 font-extrabold text-white leading-[70px]">
+          <h2 className="sm:text-4xl text-xl lg:text-6xl mt-8 font-extrabold text-white md:leading-[70px]">
             Work that we produce for our clients
           </h2>
-          <p className="mt-7 text-white leading-normal">
+          <p className="mt-7 text-white md:leading-normal">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard. Get more
             details
@@ -23,7 +23,7 @@ const Hero = () => {
             Get more details
           </button>
         </div>
-        <div className="w-[50%] flex items-center relative justify-center">
+        <div className="md:w-[50%] flex items-center relative justify-center">
           <Image src={cry1} alt="cry" className="absolute top-0" />
           <Image src={unreal} alt="unreal" />
           <Image src={gamePad} alt="game-pad" className="w-[80%] pt-10" />

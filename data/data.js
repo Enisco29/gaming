@@ -1,3 +1,9 @@
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import feature1 from "../public/Group 48.png";
 import feature2 from "../public/Group 49.png";
 import feature3 from "../public/Group 50.png";
@@ -9,12 +15,12 @@ import card1 from "../public/Rectangle 23.png";
 import card2 from "../public/Rectangle 24.png";
 import card3 from "../public/Rectangle 25.png";
 import card4 from "../public/Rectangle 26.png";
-import project1 from "../public/Rectangle 15.png";
-import project2 from "../public/Rectangle 16.png";
-import project3 from "../public/Rectangle 17.png";
-import project4 from "../public/Rectangle 18.png";
-import project5 from "../public/Rectangle 19.png";
-import project6 from "../public/Rectangle 20.png";
+import project1 from "../public/Rectangle 15.jpg";
+import project2 from "../public/Rectangle 16.jpg";
+import project3 from "../public/Rectangle 17.jpg";
+import project4 from "../public/Rectangle 18.jpg";
+import project5 from "../public/Rectangle 19.jpg";
+import project6 from "../public/Rectangle 20.jpg";
 
 export const navLinks = [
   { name: "Home", path: "/" },
@@ -40,12 +46,45 @@ export const features = [
   { id: 6, image: feature6, title: "3d Modelling", arrow: arrow },
   { id: 8 },
 ];
+export const featuresM = [
+  { id: 1, image: feature1, title: "Mobile Game Development", arrow: arrow },
+  { id: 2, image: feature2, title: "PC Game Development", arrow: arrow },
+  { id: 3, image: feature3, title: "PS4 Game Development", arrow: arrow },
+  { id: 4, image: feature4, title: "AR/VR Solutions", arrow: arrow },
+  { id: 5, image: feature5, title: "AR/VR Designs", arrow: arrow },
+  { id: 6, image: feature6, title: "3d Modelling", arrow: arrow },
+];
 
 export const projectsImage = [
-  { id: 1, image: project1 },
-  { id: 2, image: project2 },
-  { id: 3, image: project3 },
-  { id: 4, image: project5 },
-  { id: 5, image: project4 },
-  { id: 6, image: project6 },
+  { id: 1, image: project1, class: "col-span-1 lg:col-span-2" },
+  { id: 2, image: project2, class: "col-span-1 lg:col-span-2" },
+  { id: 3, image: project3, class: "col-span-1 lg:col-span-1" },
+  { id: 4, image: project5, class: "col-span-1 lg:col-span-1" },
+  { id: 5, image: project4, class: "col-span-1 lg:col-span-2" },
+  { id: 6, image: project6, class: "col-span-1 lg:col-span-2" },
+];
+
+export const footerLinks = [
+  {
+    title: "LOGO",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+  {
+    title: "About us",
+    links: ["Zeux", "Portfolio", "Careers", "Contact Us"],
+  },
+  {
+    title: "Contact Us",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    phone: "+908 89097 890",
+  },
+];
+
+export const socialLinks = [
+  { icon: <FaFacebookF />, href: "#" },
+  { icon: <FaTwitter />, href: "#" },
+  { icon: <FaInstagram />, href: "#" },
+  { icon: <FaLinkedinIn />, href: "#" },
 ];

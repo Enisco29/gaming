@@ -2,9 +2,9 @@ import { gameCard } from "@/data/data";
 import Image from "next/image";
 import fire from "../../public/fire 1.png";
 
-const GameCard = ({ image, title }) => {
+const GameCard = () => {
   return (
-    <div className="flex justify-between items-center mt-10">
+    <div className="grid flex-wrap gap-6 md:grid-cols-4 sm:grid-cols-2 items-center mt-10">
       {gameCard.map((card) => (
         <div
           key={card.id}

@@ -5,20 +5,20 @@ import Group21 from "../public/Group 21.png";
 
 const About = () => {
   return (
-    <section className="mt-[100px] mx-[80px] space-y-[20px] flex flex-col justify-center items-center">
-      <h3 className="text-center text-4xl font-bold w-[800px]">
+    <section className="mt-[100px] pb-[90px] md:mx-[80px] mx-[20px] space-y-[20px] flex flex-col justify-center items-center">
+      <h3 className="text-center md:text-4xl text-xl font-bold md:w-[800px]">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry.
       </h3>
       <div className="w-full flex flex-col justify-center items-start mt-[50px] space-y-[10px]">
         <h2 className="text-2xl font-bold">Lorem Ipsum</h2>
-        <p className="w-[500px]">
+        <p className="md:w-[500px]">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s,
         </p>
       </div>
-      <div className="relative w-full h-[550px]">
+      <div className="relative w-full">
         <Image
           src={Group21}
           alt="dot"
