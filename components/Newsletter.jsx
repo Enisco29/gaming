@@ -23,6 +23,7 @@ const Newsletter = () => {
           <div className="flex relative items-center justify-between md:w-[400px]">
             <input
               type="email"
+              required
               placeholder="Enter email address"
               className="bg-white p-3 px-6 rounded-md outline-none text-black/60 w-full"
             />

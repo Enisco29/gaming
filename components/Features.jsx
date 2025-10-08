@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <section className="relative ">
       <div className="absolute inset-0 bg-black/80 h-full z-10" />
-      <div className="absolute w-full flex flex-col items-center z-50 ">
+      <div className="absolute w-full flex flex-col items-center z-30 ">
         <h3 className="md:mt-[90px] mt-[40px] md:text-3xl sm:text-2xl text-lg font-bold md:w-[580px] mx-5 text-center leading-relaxed">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
