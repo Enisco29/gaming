@@ -14,7 +14,7 @@ const Features = () => {
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: "#features",
-        start: "top top",
+        start: "top 85%",
         end: "bottom 20%",
         toggleActions: "play none none reverse",
       },
